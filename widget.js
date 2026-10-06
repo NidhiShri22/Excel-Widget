@@ -1,5 +1,5 @@
 /**
- * SAC Custom Widget - Excel Export Widget  (v1.1.0)
+ * SAC Custom Widget - Excel Export Widget  (v1.2.0)
  *
  * Features:
  *  - Exports the bound SAC table to .xlsx via xlsx-js-style (SheetJS fork)
@@ -57,7 +57,7 @@
 
   var tmpl = document.createElement("template");
   tmpl.innerHTML =
-    '<link rel="stylesheet" href="widget.css" />' +
+    '<link rel="stylesheet" href="https://raw.githubusercontent.com/NidhiShri22/Excel-Widget/refs/heads/main/widget.css" />' +
     '<div id="wrapper">' +
       '<button id="exportBtn" part="export-button" aria-label="Export to Excel">' +
         '<span id="btnLabel">Export to Excel</span>' +
